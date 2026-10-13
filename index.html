@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proposal Tenant — Culture of Jatim 2026</title>
+<meta name="description" content="Proposal kerja sama tenant The Biggest Culture of Jatim with UKM/UMKM & Ekraf Fiesta 2026 — Wisata Pancoran Waterpark, Banyuwangi, 30 Oktober – 1 November 2026.">
+<meta property="og:title" content="Proposal Tenant — The Biggest Culture of Jatim 2026">
+<meta property="og:description" content="5 tenant tersedia, Rp25.000.000 per tenant. 30 Okt – 1 Nov 2026, Wisata Pancoran Waterpark, Banyuwangi.">
+<meta property="og:image" content="assets/poster.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#11286a; --navy-2:#0b1c4d; --gold:#f2b632; --gold-soft:#fdf3d7;
+    --red:#d42a2a; --ink:#1b2236; --muted:#5b6478; --line:#e3e6ee;
+    --bg:#f7f8fb; --card:#ffffff; --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth;scroll-padding-top:24px}
+  body{margin:0;font-family:"Plus Jakarta Sans",system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65;font-size:16px}
+  img{max-width:100%;display:block}
+  a{color:var(--navy)}
+  strong{font-weight:700}
+
+  /* ---------- HERO ---------- */
+  .hero{background:radial-gradient(1200px 600px at 85% -10%,#2a4fb0 0%,transparent 60%),linear-gradient(160deg,var(--navy) 0%,var(--navy-2) 100%);color:#fff;position:relative;overflow:hidden}
+  .hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:6px;background:linear-gradient(90deg,var(--red),var(--gold),var(--red))}
+  .hero-inner{max-width:1180px;margin:0 auto;padding:64px 24px 72px;display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+  .eyebrow{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(242,182,50,.45);padding:6px 12px;border-radius:999px}
+  .hero h1{font-size:clamp(32px,4.6vw,54px);line-height:1.08;font-weight:800;margin:20px 0 12px;letter-spacing:-.02em}
+  .hero h1 span{color:var(--gold)}
+  .hero .sub{font-size:clamp(17px,1.8vw,21px);font-weight:600;opacity:.95;margin:0 0 18px}
+  .tagline{font-style:italic;opacity:.85;border-left:3px solid var(--gold);padding-left:14px;margin:0 0 28px;max-width:560px}
+  .facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:0 0 30px;padding:0;list-style:none}
+  .facts li{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:12px 14px}
+  .facts b{display:block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);font-weight:700}
+  .offer{display:flex;flex-wrap:wrap;align-items:center;gap:18px}
+  .price{background:var(--gold);color:var(--navy-2);border-radius:14px;padding:14px 20px;line-height:1.2}
+  .price small{display:block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+  .price strong{font-size:28px;font-weight:800}
+  .btn{display:inline-block;background:#fff;color:var(--navy);font-weight:700;text-decoration:none;padding:14px 22px;border-radius:12px;transition:transform .15s}
+  .btn:hover{transform:translateY(-2px)}
+  .poster{height:auto;border-radius:16px;box-shadow:0 30px 60px -20px rgba(0,0,0,.6);transform:rotate(1.5deg);border:4px solid rgba(255,255,255,.9)}
+
+  /* ---------- LAYOUT ---------- */
+  .layout{max-width:1180px;margin:0 auto;padding:48px 24px 80px;display:grid;grid-template-columns:250px minmax(0,1fr);gap:48px}
+  .toc{position:sticky;top:24px;align-self:start;max-height:calc(100vh - 48px);overflow:auto}
+  .toc h2{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  .toc ol{list-style:none;margin:0;padding:0;counter-reset:toc}
+  .toc li a{display:flex;gap:10px;padding:6px 10px;border-radius:8px;text-decoration:none;color:var(--ink);font-size:14px;font-weight:500}
+  .toc li a::before{counter-increment:toc;content:counter(toc,decimal-leading-zero);color:var(--muted);font-variant-numeric:tabular-nums;font-weight:600}
+  .toc li a:hover,.toc li a.active{background:#e9edf8;color:var(--navy)}
+  .toc li a.active::before{color:var(--red)}
+
+  section{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:32px 36px;margin-bottom:22px}
+  section h2{display:flex;align-items:baseline;gap:14px;font-size:24px;line-height:1.25;margin:0 0 16px;color:var(--navy);font-weight:800;letter-spacing:-.01em}
+  section h2 .no{font-size:14px;font-weight:800;color:#fff;background:var(--navy);border-radius:8px;padding:3px 9px;flex:none;transform:translateY(-3px)}
+  section h3{font-size:17px;color:var(--navy);margin:26px 0 10px}
+  section p{margin:0 0 14px}
+  section ul{margin:0 0 14px;padding-left:20px}
+  section li{margin-bottom:6px}
+  .lead{font-size:18px;font-weight:500}
+
+  .table-wrap{overflow-x:auto;margin:6px 0 16px;border:1px solid var(--line);border-radius:12px}
+  table{border-collapse:collapse;width:100%;font-size:15px}
+  th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:#f0f3fa;color:var(--navy);font-weight:700;font-size:13px;letter-spacing:.03em;text-transform:uppercase}
+  tr:last-child td{border-bottom:0}
+  td:first-child{font-weight:600;white-space:nowrap}
+  .wrap td:first-child{white-space:normal}
+  tr.total td{background:var(--gold-soft);font-weight:800}
+
+  .days{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:8px 0 16px}
+  .day{border:1px solid var(--line);border-radius:12px;padding:16px;border-top:4px solid var(--navy)}
+  .day:nth-child(2){border-top-color:var(--gold)}
+  .day:nth-child(3){border-top-color:var(--red)}
+  .day b{display:block;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+  .day h4{margin:4px 0 8px;font-size:17px;color:var(--navy)}
+  .day p{margin:0;font-size:15px}
+
+  .package{display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center;background:linear-gradient(135deg,var(--navy),#1d3f9a);color:#fff;border-radius:14px;padding:26px 28px;margin:4px 0 18px}
+  .package .big{font-size:36px;font-weight:800;color:var(--gold);line-height:1}
+  .package .big small{display:block;font-size:13px;color:#fff;opacity:.8;font-weight:600;margin-top:6px}
+  .package p{margin:0}
+  .slots{display:flex;gap:8px;margin-top:12px}
+  .slots span{width:34px;height:34px;border-radius:8px;background:var(--gold);color:var(--navy-2);font-weight:800;display:grid;place-items:center;font-size:14px}
+  .incl{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .incl div{border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+  .incl h4{margin:0 0 8px;font-size:15px}
+  .incl .yes h4{color:#1a7f45}
+  .incl .no h4{color:var(--red)}
+  .incl ul{margin:0}
+
+  figure{margin:8px 0 14px}
+  figure img{border-radius:12px;border:1px solid var(--line)}
+  figcaption{font-size:14px;color:var(--muted);margin-top:8px}
+
+  .cta{background:linear-gradient(135deg,var(--red),#a81616);color:#fff;border:0}
+  .cta h2{color:#fff}
+  .cta h2 .no{background:#fff;color:var(--red)}
+  .cta .btn{color:var(--red)}
+
+  .contact-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .contact-grid div{border:1px solid var(--line);border-radius:12px;padding:12px 16px}
+  .contact-grid b{display:block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .contact-grid a{text-decoration:none;font-weight:600}
+  .contact-grid .full{grid-column:1/-1}
+
+  .sign{margin-top:22px}
+  footer{text-align:center;color:var(--muted);font-size:13px;padding:0 24px 40px}
+
+  @media (max-width:960px){
+    .hero-inner{grid-template-columns:minmax(0,1fr);gap:36px;padding:44px 16px 56px}
+    .hero-inner>*{min-width:0}
+    .hero h1{overflow-wrap:anywhere}
+    .poster{width:100%;max-width:min(420px,100%);height:auto;margin:0 auto;transform:none}
+    .layout{grid-template-columns:minmax(0,1fr);padding:28px 16px 60px;gap:20px}
+    .toc{position:static;max-height:none;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px}
+    .toc ol{columns:2;column-gap:8px}
+  }
+  @media (max-width:640px){
+    section{padding:24px 18px}
+    section h2{font-size:20px}
+    .facts,.incl,.contact-grid,.days{grid-template-columns:1fr}
+    .package{grid-template-columns:1fr}
+    .toc ol{columns:1}
+    td:first-child{white-space:normal}
+  }
+  @media print{
+    body{background:#fff}
+    .toc{display:none}
+    .layout{display:block;padding:0}
+    section{break-inside:avoid;border:0;padding:16px 0}
+    .hero::after{display:none}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero" id="cover">
+  <div class="hero-inner">
+    <div>
+      <span class="eyebrow">Proposal Kerja Sama Tenant</span>
+      <h1>The Biggest <span>Culture of Jatim</span></h1>
+      <p class="sub">with UKM/UMKM &amp; Ekraf Fiesta 2026</p>
+      <p class="tagline">“Bersama Kekayaan Budaya Jawa Timur, UKM/UMKM Berinovasi dan Bertumbuh Kembang Menuju Pasar Global, Lokal dan Nasional”</p>
+      <ul class="facts">
+        <li><b>Tanggal</b>Jumat–Minggu, 30 Okt – 1 Nov 2026</li>
+        <li><b>Waktu</b>08.00–22.00 WIB</li>
+        <li><b>Venue</b>Wisata Pancoran Waterpark, Rogojampi, Banyuwangi</li>
+        <li><b>Momen</b>Hari Jadi ke-81 Provinsi Jawa Timur</li>
+        <li><b>Penyelenggara</b>MAKI Korwil Jawa Timur × Pancoran Group</li>
+        <li><b>Pengunjung</b>±5.000 orang per hari · Gratis</li>
+      </ul>
+      <div class="offer">
+        <div class="price"><small>5 tenant tersedia</small><strong>Rp25.000.000</strong> / tenant</div>
+        <a class="btn" href="https://wa.me/628133728031?text=Halo%20Sarah%2C%20saya%20tertarik%20dengan%20tenant%20Culture%20of%20Jatim%202026" target="_blank" rel="noopener">Hubungi via WhatsApp →</a>
+      </div>
+    </div>
+    <img class="poster" src="assets/poster.jpg" alt="Poster resmi The Biggest Culture of Jatim with UKM/UMKM & Ekraf Fiesta 2026" width="1600" height="2400">
+  </div>
+</header>
+
+<div class="layout">
+  <nav class="toc" aria-label="Daftar isi">
+    <h2>Daftar Isi</h2>
+    <ol>
+      <li><a href="#executive-summary">Executive Summary</a></li>
+      <li><a href="#penyelenggara">Tentang Penyelenggara</a></li>
+      <li><a href="#latar-belakang">Latar Belakang Event</a></li>
+      <li><a href="#konsep">Konsep &amp; Tema Event</a></li>
+      <li><a href="#detail">Detail Event &amp; Denah</a></li>
+      <li><a href="#rundown">Rundown / Program Acara</a></li>
+      <li><a href="#audience">Target Audience</a></li>
+      <li><a href="#exposure">Potensi &amp; Exposure</a></li>
+      <li><a href="#bentuk">Bentuk Kerja Sama</a></li>
+      <li><a href="#benefit">Benefit untuk Partner</a></li>
+      <li><a href="#paket">Paket Kerja Sama</a></li>
+      <li><a href="#aktivasi">Aktivasi Brand</a></li>
+      <li><a href="#marketing">Media &amp; Marketing Plan</a></li>
+      <li><a href="#timeline">Timeline Persiapan</a></li>
+      <li><a href="#budget">Estimasi Budget</a></li>
+      <li><a href="#cta">Call to Action</a></li>
+      <li><a href="#kontak">Contact Person</a></li>
+      <li><a href="#closing">Closing</a></li>
+    </ol>
+  </nav>
+
+  <main>
+    <section id="executive-summary">
+      <h2><span class="no">01</span>Executive Summary</h2>
+      <p class="lead">Kami menawarkan <strong>5 slot tenant terakhir, masing-masing senilai Rp25.000.000</strong>, di festival budaya dan UMKM terbesar Jawa Timur tahun ini, selama tiga hari dengan akses gratis bagi pengunjung.</p>
+      <div class="table-wrap"><table>
+        <tr><th>Aspek</th><th>Keterangan</th></tr>
+        <tr><td>Apa</td><td>Festival budaya, pameran UKM/UMKM &amp; ekonomi kreatif, kompetisi, fun run, dan konser rakyat</td></tr>
+        <tr><td>Kapan</td><td>30 Oktober – 1 November 2026, pukul 08.00–22.00 WIB</td></tr>
+        <tr><td>Di mana</td><td>Wisata Pancoran Waterpark, Rogojampi, Banyuwangi</td></tr>
+        <tr><td>Siapa</td><td>Keluarga, pelajar TK–SMA/SMK, komunitas, pelaku UMKM, pejabat Pemprov Jatim &amp; Pemkab Banyuwangi, perwakilan konsulat negara sahabat</td></tr>
+        <tr><td>Skala</td><td>60 tenant UMKM &amp; Ekraf, panggung utama 8×6 m</td></tr>
+        <tr><td>Estimasi pengunjung</td><td>±5.000 orang per hari (±15.000 selama 3 hari)</td></tr>
+        <tr><td>Tiket</td><td>Gratis untuk pengunjung</td></tr>
+        <tr><td>Penawaran</td><td>5 tenant, Rp25.000.000 per tenant</td></tr>
+        <tr><td>Tujuan</td><td>Memperingati HUT ke-81 Jatim, mengangkat budaya daerah, dan membawa UMKM menuju pasar lokal, nasional, dan global</td></tr>
+      </table></div>
+      <p>Bagi brand, tenant ini memberi akses langsung ke ±5.000 pengunjung keluarga per hari dari Banyuwangi dan sekitarnya, di acara yang dihadiri Gubernur, Wakil Gubernur, dan pimpinan daerah.</p>
+    </section>
+
+    <section id="penyelenggara">
+      <h2><span class="no">02</span>Tentang Penyelenggara</h2>
+      <p>Acara ini diselenggarakan oleh kemitraan publik–swasta–komunitas yang didukung penuh Pemerintah Provinsi Jawa Timur.</p>
+      <p><strong>Pancoran Group / Wisata Pancoran Waterpark</strong> — dipimpin Haliyatul Istiqomah, mengelola destinasi wisata keluarga di Rogojampi, Banyuwangi yang telah beroperasi lebih dari 20 tahun dengan konsep <em>One Stop Family Adventure</em>.</p>
+      <ul>
+        <li>8 wahana air utama: kolam ombak, kolam arus, kolam busa, hingga <em>Water Slide Extreme</em> setinggi 17 m</li>
+        <li>Danau buatan dengan perahu wisata dan ikon atraksi Pulau Bidadari</li>
+        <li>Akses 25–30 menit dari pusat kota Banyuwangi, dekat bandara</li>
+      </ul>
+      <p><strong>MAKI Korwil Jawa Timur</strong> — Masyarakat Anti Korupsi Indonesia, dipimpin Heru Satriyo, S.Ip. sebagai Ketua Pelaksana.</p>
+      <p><strong>Pendukung:</strong> Pemprov Jawa Timur melalui Dinas Kebudayaan dan Pariwisata (Disbudpar) Jatim dan dinas teknis terkait, serta Pemkab Banyuwangi.</p>
+    </section>
+
+    <section id="latar-belakang">
+      <h2><span class="no">03</span>Latar Belakang Event</h2>
+      <p>Festival ini lahir dari kebutuhan untuk mengubah kekayaan budaya Jawa Timur menjadi daya saing ekonomi, tepat di momen Hari Jadi ke-81 Provinsi Jawa Timur.</p>
+      <ul>
+        <li><strong>Budaya perlu panggung yang hidup.</strong> Seni tradisi, termasuk budaya Osing, perlu terus dihadirkan di tengah modernisasi pariwisata.</li>
+        <li><strong>UMKM perlu pasar dan jejaring.</strong> Pelaku usaha dari Banyuwangi, Jember, Bondowoso, dan sekitarnya membutuhkan ruang temu langsung dengan konsumen dan antardaerah.</li>
+        <li><strong>Banyuwangi adalah percontohan.</strong> Kabupaten ini konsisten menjadikan budaya sebagai fondasi pariwisata, sehingga dipilih sebagai tuan rumah tingkat provinsi.</li>
+        <li><strong>Isu sosial dan lingkungan.</strong> Festival juga menjadi wahana edukasi melalui Deklarasi <em>Anti-Bullying</em> dan <em>Banyuwangi Zero Sampah</em>.</li>
+      </ul>
+    </section>
+
+    <section id="konsep">
+      <h2><span class="no">04</span>Konsep &amp; Tema Event</h2>
+      <p>Konsepnya adalah <strong>pesta rakyat tiga hari</strong> yang memadukan budaya, ekonomi kreatif, edukasi, olahraga, dan hiburan dalam satu kawasan wisata keluarga.</p>
+      <p><strong>Tema resmi:</strong> <em>“Bersama Kekayaan Budaya Jawa Timur, UKM/UMKM Berinovasi dan Bertumbuh Kembang Menuju Pasar Global, Lokal dan Nasional”</em></p>
+      <div class="days">
+        <div class="day"><b>Hari 1</b><h4>Budaya &amp; Fesyen</h4><p>Seni budaya kolosal, Fashion Competition “The Beauty of Culture”, peragaan busana budaya</p></div>
+        <div class="day"><b>Hari 2</b><h4>Kreativitas &amp; Edukasi</h4><p>Painting Competition “Color Your Dream”, lomba mewarnai massal, Deklarasi Anti-Bullying</p></div>
+        <div class="day"><b>Hari 3</b><h4>Sehat, Hijau &amp; Hiburan</h4><p>Jatim Fun Run 5K, Deklarasi Banyuwangi Zero Sampah, konser pesta rakyat</p></div>
+      </div>
+      <p>Sepanjang tiga hari, pengunjung berbelanja di 60 tenant UMKM &amp; Ekraf sambil menikmati suasana waterpark.</p>
+    </section>
+
+    <section id="detail">
+      <h2><span class="no">05</span>Detail Event</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Parameter</th><th>Detail</th></tr>
+        <tr><td>Nama</td><td>The Biggest Culture of Jatim with UKM/UMKM &amp; Ekraf Fiesta 2026</td></tr>
+        <tr><td>Tanggal</td><td>Jumat, 30 Oktober – Minggu, 1 November 2026</td></tr>
+        <tr><td>Waktu</td><td>08.00–22.00 WIB setiap hari</td></tr>
+        <tr><td>Lokasi</td><td>Wisata Pancoran Waterpark, Kec. Rogojampi, Kab. Banyuwangi</td></tr>
+        <tr><td>Tiket</td><td>Gratis</td></tr>
+        <tr><td>Jumlah tenant</td><td>60 tenant UMKM (terbatas karena luas area); 5 tenant tersedia untuk partner</td></tr>
+        <tr><td>Panggung</td><td>Panggung utama 8×6 m</td></tr>
+        <tr><td>Bintang tamu</td><td>Lala Widy, Guntur Arisandy, Wandra Restusiyan</td></tr>
+        <tr><td>Tamu VIP</td><td>Gubernur Jatim Khofifah Indar Parawansa, Wagub Emil Elestianto Dardak, Bupati Banyuwangi Ipuk Fiestiandani Azwar Anas, Wabup Ir. Mujiono, M.Si, perwakilan Konsulat Jenderal negara sahabat</td></tr>
+        <tr><td>Estimasi pengunjung</td><td>±5.000 orang per hari (±15.000 selama 3 hari)</td></tr>
+      </table></div>
+      <h3>Denah Area</h3>
+      <figure>
+        <img src="assets/denah.jpg" alt="Denah area Wisata Pancoran Waterpark untuk Culture of Jatim 2026" width="1024" height="768" loading="lazy">
+        <figcaption>Pintu masuk dan keluar berada di sisi kiri atas, langsung mengarah ke panggung utama 8×6 m. Deretan tenant mengelilingi area tengah sehingga dilalui arus pengunjung dari semua arah. Posisi 5 tenant partner ditetapkan bersama panitia sesuai denah, berdasarkan urutan konfirmasi.</figcaption>
+      </figure>
+    </section>
+
+    <section id="rundown">
+      <h2><span class="no">06</span>Rundown / Program Acara</h2>
+      <p>Pameran UMKM &amp; tenant berlangsung setiap hari pukul 08.00–22.00 WIB; program panggung berganti tema tiap hari. Jam detail menunggu rundown final panitia.</p>
+      <div class="table-wrap"><table class="wrap">
+        <tr><th>Hari</th><th>Pagi</th><th>Siang–Sore</th><th>Malam</th></tr>
+        <tr><td>Jumat, 30 Okt</td><td>Opening Ceremony &amp; pembukaan pameran UMKM</td><td>Pertunjukan seni budaya kolosal Disbudpar Jatim</td><td>Fashion Competition “The Beauty of Culture” &amp; peragaan busana budaya</td></tr>
+        <tr><td>Sabtu, 31 Okt</td><td>Lomba mewarnai massal TK/PAUD/SD</td><td>Painting Competition “Color Your Dream”; Deklarasi Anti-Bullying pelajar TK–SMA/SMK</td><td>Hiburan panggung &amp; pameran</td></tr>
+        <tr><td>Minggu, 1 Nov</td><td>Jatim Fun Run 5K @Banyuwangi</td><td>Deklarasi Banyuwangi Zero Sampah (perwakilan desa/kelurahan se-Banyuwangi)</td><td>Konser Pesta Rakyat: Lala Widy, Guntur Arisandy, Wandra Restusiyan &amp; penutupan</td></tr>
+      </table></div>
+    </section>
+
+    <section id="audience">
+      <h2><span class="no">07</span>Target Audience</h2>
+      <p>Audiens utama adalah keluarga Banyuwangi dan Jawa Timur bagian timur, diperkuat pelajar, komunitas, dan pelaku usaha.</p>
+      <div class="table-wrap"><table class="wrap">
+        <tr><th>Segmen</th><th>Profil</th><th>Pemicu Kehadiran</th></tr>
+        <tr><td>Keluarga</td><td>Orang tua 25–45 th dengan anak</td><td>Tiket gratis, waterpark, lomba anak, konser</td></tr>
+        <tr><td>Pelajar</td><td>TK, PAUD, SD hingga SMA/SMK se-Banyuwangi</td><td>Lomba mewarnai, painting competition, Deklarasi Anti-Bullying</td></tr>
+        <tr><td>Anak muda &amp; komunitas</td><td>17–35 th, komunitas lari, seni, fesyen</td><td>Fun Run 5K, Fashion Competition, konser artis dangdut populer</td></tr>
+        <tr><td>Pelaku UMKM &amp; Ekraf</td><td>Banyuwangi, Jember, Bondowoso, dan sekitarnya</td><td>Pameran, jejaring bisnis antardaerah</td></tr>
+        <tr><td>Pemerintah &amp; mitra</td><td>Pemprov Jatim, Pemkab Banyuwangi, OPD, perwakilan desa, Konsulat Jenderal</td><td>Seremoni HUT ke-81 Jatim, deklarasi</td></tr>
+      </table></div>
+      <p><strong>Wilayah asal:</strong> Banyuwangi (utama), Jember, Bondowoso, Situbondo, dan wisatawan yang berkunjung ke Banyuwangi.</p>
+    </section>
+
+    <section id="exposure">
+      <h2><span class="no">08</span>Potensi &amp; Exposure</h2>
+      <p>Tiket gratis, momentum HUT provinsi, dan kehadiran pejabat tinggi menjadikan festival ini magnet pengunjung dengan estimasi ±5.000 orang per hari.</p>
+      <div class="table-wrap"><table class="wrap">
+        <tr><th>Kanal</th><th>Potensi</th></tr>
+        <tr><td>Traffic lokasi</td><td>±5.000 pengunjung per hari, ±15.000 selama 3 hari, 08.00–22.00 WIB</td></tr>
+        <tr><td>Media online</td><td>Sudah diliput sebelum acara oleh detik.com Jatim, Jatim Juara, Abadi News, Taruna News, Nusantara Jaya News, Gantara News, dan lainnya</td></tr>
+        <tr><td>Publik figur</td><td>Lala Widy, Guntur Arisandy, Wandra Restusiyan; Gubernur, Wagub Jatim, Bupati dan Wabup Banyuwangi</td></tr>
+        <tr><td>Komunitas</td><td>60 tenant UMKM, sekolah TK–SMA/SMK, desa/kelurahan se-Banyuwangi, peserta Fun Run &amp; kompetisi</td></tr>
+        <tr><td>Internasional</td><td>Perwakilan Konsulat Jenderal negara sahabat</td></tr>
+      </table></div>
+    </section>
+
+    <section id="bentuk">
+      <h2><span class="no">09</span>Bentuk Kerja Sama</h2>
+      <p>Bentuk kerja sama yang kami tawarkan hanya satu: <strong>sewa tenant</strong>. Acara ini diselenggarakan oleh pihak eksternal, dan Pancoran Group mendapat alokasi 5 tenant untuk ditawarkan kepada brand dan mitra.</p>
+      <p>Tenant dapat dimanfaatkan untuk:</p>
+      <ul>
+        <li>Penjualan produk langsung kepada pengunjung</li>
+        <li>Display dan launching produk baru</li>
+        <li>Sampling dan tester produk</li>
+        <li>Aktivasi brand di dalam area tenant</li>
+        <li>Pengumpulan database konsumen dan promosi</li>
+      </ul>
+    </section>
+
+    <section id="benefit">
+      <h2><span class="no">10</span>Benefit untuk Partner</h2>
+      <ul>
+        <li><strong>Area tenant selama 3 hari</strong> — 30 Oktober – 1 November 2026, pukul 08.00–22.00 WIB.</li>
+        <li><strong>Tenda tenant</strong> sesuai standar penyelenggara.</li>
+        <li><strong>Listrik 4A</strong> untuk kebutuhan tenant.</li>
+        <li><strong>Keamanan dan kebersihan</strong> area selama acara.</li>
+        <li><strong>Akses langsung ke ±5.000 pengunjung per hari</strong> tanpa biaya tiket masuk.</li>
+        <li><strong>Bebas berjualan, sampling, dan aktivasi brand</strong> di dalam area tenant.</li>
+        <li><strong>Jejaring</strong> dengan Pemprov Jatim, Pemkab Banyuwangi, dan 60 pelaku UMKM antardaerah.</li>
+        <li><strong>Technical meeting dan pendampingan panitia</strong> sejak persiapan hingga hari H.</li>
+      </ul>
+    </section>
+
+    <section id="paket">
+      <h2><span class="no">11</span>Paket Kerja Sama</h2>
+      <div class="package">
+        <div class="big">Rp25.000.000<small>per tenant · 3 hari acara</small></div>
+        <div>
+          <p>Hanya ada satu paket: <strong>Paket Tenant</strong>. Tersedia <strong>5 tenant</strong>, dialokasikan berdasarkan urutan konfirmasi dan pembayaran DP.</p>
+          <div class="slots" aria-label="5 slot tenant"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span></div>
+        </div>
+      </div>
+      <div class="incl">
+        <div class="yes"><h4>Termasuk</h4><ul><li>Area tenant 3 hari</li><li>Tenda standar</li><li>Listrik 4A</li><li>Keamanan dan kebersihan area</li><li>Seluruh benefit pada bagian 10</li></ul></div>
+        <div class="no"><h4>Tidak termasuk</h4><ul><li>Produk</li><li>SDM penjaga tenant</li><li>Peralatan display</li><li>Dekorasi tambahan di luar standar penyelenggara</li></ul></div>
+      </div>
+    </section>
+
+    <section id="aktivasi">
+      <h2><span class="no">12</span>Aktivasi Brand</h2>
+      <p>Berikut ide aktivasi yang dapat dijalankan partner di dalam area tenant, sesuai profil pengunjung keluarga dan tema budaya:</p>
+      <ul>
+        <li><strong>Photo spot budaya</strong> bertema Osing/batik dengan bingkai brand, mendorong pengunjung mengunggah foto.</li>
+        <li><strong>Games dan doorprize harian</strong> — beli produk atau ikuti akun brand untuk ikut undian.</li>
+        <li><strong>Sampling dan tester produk</strong> kepada pengunjung yang lewat.</li>
+        <li><strong>Promo khusus festival</strong> — diskon atau bundling selama 3 hari acara.</li>
+        <li><strong>Pojok anak</strong> — aktivitas mewarnai atau kerajinan singkat bersama brand, sejalan dengan program lomba anak.</li>
+        <li><strong>Aksi hijau</strong> — tukar sampah plastik dengan produk/voucher, sejalan dengan Deklarasi Banyuwangi Zero Sampah.</li>
+      </ul>
+    </section>
+
+    <section id="marketing">
+      <h2><span class="no">13</span>Media &amp; Marketing Plan</h2>
+      <p>Publikasi utama acara dijalankan oleh penyelenggara dan pemerintah daerah; Pancoran Group mendukung dari sisi venue dan komunitas sekitar.</p>
+      <div class="table-wrap"><table class="wrap">
+        <tr><th>Kanal</th><th>Aktivitas</th><th>Fase</th></tr>
+        <tr><td>Media partner</td><td>Liputan media online &amp; lokal (detik Jatim, Jatim Juara, dll.)</td><td>Pra, saat, pasca</td></tr>
+        <tr><td>Instagram &amp; TikTok</td><td>Informasi acara dan suasana festival di akun @pancoranwaterpark</td><td>Pra, saat</td></tr>
+        <tr><td>Banner &amp; poster</td><td>Pemasangan di titik strategis kota, sekolah, dan desa/kelurahan</td><td>Pra</td></tr>
+        <tr><td>Komunitas</td><td>Sekolah, komunitas lari, UMKM binaan OPD, perangkat desa</td><td>Pra</td></tr>
+        <tr><td>Sosialisasi warga</td><td>Sosialisasi langsung ke warga Pancoran &amp; Karangbendo (sudah berjalan)</td><td>Pra</td></tr>
+        <tr><td>Panggung acara</td><td>Informasi lokasi tenant kepada pengunjung di sela acara</td><td>Saat</td></tr>
+      </table></div>
+    </section>
+
+    <section id="timeline">
+      <h2><span class="no">14</span>Timeline Persiapan</h2>
+      <p>Konfirmasi partner kami tunggu paling lambat <strong>20 Oktober 2026</strong> agar posisi tenant dapat ditetapkan tepat waktu.</p>
+      <div class="table-wrap"><table class="wrap">
+        <tr><th>Tanggal</th><th>Tahapan</th></tr>
+        <tr><td>20 Okt 2026</td><td>Batas konfirmasi kerja sama &amp; penandatanganan kesepakatan</td></tr>
+        <tr><td>22 Okt 2026</td><td>Pembayaran DP 50% dan pengiriman data tenant (nama brand, jenis produk, kebutuhan teknis)</td></tr>
+        <tr><td>23 Okt 2026</td><td>Penetapan posisi tenant sesuai denah dan pelunasan 50%</td></tr>
+        <tr><td>27 Okt 2026</td><td>Technical meeting partner &amp; tenant</td></tr>
+        <tr><td>29 Okt 2026</td><td>Loading barang dan setup tenant</td></tr>
+        <tr><td>30 Okt – 1 Nov 2026</td><td>Hari H</td></tr>
+        <tr><td>8 Nov 2026</td><td>Pengiriman laporan &amp; dokumentasi pasca-acara</td></tr>
+      </table></div>
+    </section>
+
+    <section id="budget">
+      <h2><span class="no">15</span>Estimasi Budget</h2>
+      <p>Nilai Paket Tenant sebesar Rp25.000.000 per tenant dialokasikan sebagai berikut:</p>
+      <div class="table-wrap"><table class="wrap">
+        <tr><th>Pos</th><th>Nilai</th></tr>
+        <tr><td>Sewa lahan &amp; tenda tenant (3 hari)</td><td>Rp12.000.000</td></tr>
+        <tr><td>Kontribusi kepada penyelenggara acara</td><td>Rp5.000.000</td></tr>
+        <tr><td>Listrik 4A &amp; instalasi</td><td>Rp3.000.000</td></tr>
+        <tr><td>Keamanan &amp; kebersihan area</td><td>Rp2.500.000</td></tr>
+        <tr><td>Publikasi &amp; promosi acara</td><td>Rp1.500.000</td></tr>
+        <tr><td>Administrasi &amp; technical meeting</td><td>Rp1.000.000</td></tr>
+        <tr class="total"><td>Total per tenant</td><td>Rp25.000.000</td></tr>
+      </table></div>
+      <p>Skema pembayaran: DP 50% saat penandatanganan kesepakatan, pelunasan 50% paling lambat 23 Oktober 2026.</p>
+    </section>
+
+    <section id="cta" class="cta">
+      <h2><span class="no">16</span>Call to Action</h2>
+      <p class="lead">Hanya tersedia <strong>5 tenant</strong> dengan harga Rp25.000.000 per tenant, karena seluruh booth lainnya telah terjual. Kami mengundang brand Anda hadir langsung di tengah ±5.000 pengunjung per hari pada perayaan HUT ke-81 Jawa Timur.</p>
+      <p>Mari jadwalkan diskusi atau kunjungan lokasi bersama tim kami sebelum batas konfirmasi 20 Oktober 2026.</p>
+      <a class="btn" href="https://wa.me/628133728031?text=Halo%20Sarah%2C%20saya%20tertarik%20dengan%20tenant%20Culture%20of%20Jatim%202026" target="_blank" rel="noopener">Amankan slot tenant Anda →</a>
+    </section>
+
+    <section id="kontak">
+      <h2><span class="no">17</span>Contact Person</h2>
+      <div class="contact-grid">
+        <div><b>Nama</b>Sarah</div>
+        <div><b>WhatsApp</b><a href="https://wa.me/628133728031" target="_blank" rel="noopener">+62 813-3728-031</a></div>
+        <div><b>Email</b><a href="mailto:marketing@pancorangroup.com">marketing@pancorangroup.com</a></div>
+        <div><b>Website</b><a href="https://www.pancorangroup.com" target="_blank" rel="noopener">www.pancorangroup.com</a></div>
+        <div><b>Instagram</b><a href="https://www.instagram.com/pancoranwaterpark" target="_blank" rel="noopener">@pancoranwaterpark</a></div>
+        <div><b>TikTok</b><a href="https://www.tiktok.com/@pancoranwaterpark" target="_blank" rel="noopener">pancoranwaterpark</a></div>
+        <div class="full"><b>Alamat</b>Wisata Pancoran Waterpark, Rogojampi, Banyuwangi, Jawa Timur</div>
+      </div>
+    </section>
+
+    <section id="closing">
+      <h2><span class="no">18</span>Closing</h2>
+      <p>Terima kasih atas perhatian dan kesempatan yang diberikan. Kami yakin kolaborasi ini akan memberi nilai nyata bagi brand Anda sekaligus turut menguatkan budaya dan UMKM Jawa Timur. Kami menantikan kabar baik dan kerja sama yang saling menguntungkan.</p>
+      <div class="sign">
+        <p>Hormat kami,</p>
+        <p><strong>Panitia The Biggest Culture of Jatim with UKM/UMKM &amp; Ekraf Fiesta 2026</strong><br>Pancoran Group × MAKI Korwil Jawa Timur</p>
+      </div>
+    </section>
+  </main>
+</div>
+
+<footer>© 2026 Pancoran Group · Wisata Pancoran Waterpark, Banyuwangi</footer>
+
+<script>
+  // Sorot item daftar isi sesuai bagian yang sedang dibaca
+  (function(){
+    var links = Array.prototype.slice.call(document.querySelectorAll('.toc a'));
+    var map = {};
+    links.forEach(function(a){ map[a.getAttribute('href').slice(1)] = a; });
+    if (!('IntersectionObserver' in window)) return;
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting) {
+          links.forEach(function(a){ a.classList.remove('active'); });
+          var a = map[e.target.id]; if (a) a.classList.add('active');
+        }
+      });
+    }, {rootMargin:'-30% 0px -60% 0px'});
+    document.querySelectorAll('main section').forEach(function(s){ io.observe(s); });
+  })();
+</script>
+</body>
+</html>
